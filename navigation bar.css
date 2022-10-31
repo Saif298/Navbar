@@ -1,0 +1,45 @@
+
+div{
+    width:100%; height:70px;
+    background-color:violet;
+}
+div ul{
+    
+}
+div ul li{
+    float:left;
+    list-style:none;
+    padding:20px;
+}
+div ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:25px;
+}
+div ul li:hover{
+    background-color:rgb(236, 94, 205);
+}
+
+input{
+    float:right;
+    margin-top:15px;
+    margin-right:5px;
+    outline:none;
+    border:3px solid rgb(248, 97, 198);
+    justify-content: center;
+    height:40px;width:250px;
+    border-radius:10px;
+    background-color: rgb(230, 93, 184);
+}
+button{
+    float:right;
+    margin-right:5px;
+    margin-top:17px;
+    height:35px;
+    border-radius:10px;
+}
+input::placeholder{
+    color:rgb(223, 209, 18);
+    font-size:20px;
+    
+}
